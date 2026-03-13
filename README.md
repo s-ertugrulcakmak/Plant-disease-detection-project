@@ -29,3 +29,20 @@ Training Results
 •	No overfitting was observed during training.
 
 Table 1: Classification Report (Precision, Recall, F1-Score) 
+
+<p align="center">
+  <img src="confusion_matrix.png" width="700">
+</p>
+
+
+Confusion Matrix A confusion matrix was created to understand how the model experiences confusion between classes.
+
+•	Most confused classes: 
+
+o	Tomato Early blight ↔ Tomato Late blight 
+o	Tomato Leaf Mold ↔ Tomato Septoria leaf spot 
+o	Potato Late blight ↔ Potato Early blight 
+
+
+Figure 1: Confusion Matrix 
+
