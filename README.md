@@ -46,3 +46,26 @@ o	Potato Late blight ↔ Potato Early blight
 
 Figure 1: Confusion Matrix 
 
+<p align="center">
+  <img src="Confusion_matrix2.png" width="700">
+</p>
+
+Testing the Model on Test Data Manual samples were selected from the test data to observe the model's class prediction accuracy. In these samples:
+
+•	The model predicted 8 out of 10 samples correctly.
+
+•	It made incorrect predictions with low confidence in 2 samples.
+
+•	Figure 2: Test Data Prediction Classes 
+
+•	In cases where the model makes incorrect predictions, the prediction confidence rate is low (between 43%–59%), which shows that the model can reflect its own uncertainty.
+
+Model Performance and Commentary
+
+•	Overall, the model can make predictions with high accuracy.
+
+•	Distinguishing between visually similar diseases is still difficult (especially in leaf spots).
+
+•	The model's low-confidence predictions should be carefully examined; warnings can be given to farmers in these areas.
+
+
